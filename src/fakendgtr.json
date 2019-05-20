@@ -1,0 +1,50 @@
+{
+    "bands": [
+        {
+            "id": 1,
+            "name": "The Main Squeeze",
+            "bandImgUrl": "https://yt3.ggpht.com/a-/AAuE7mDuvOJynGAaxclT9SSpCeS64rml7EUksoUiwA=s288-mo-c-c0xffffffff-rj-k-no"
+        }
+    ],
+    "socialLinks": [
+        {
+            "id": 0,
+            "pk": 0,
+            "hasWebsite": false,
+            "hasYoutube": true,
+            "hasTwitter": false,
+            "hasSoundcloud": true,
+            "hasFacebook": false,
+            "hasInstagram": true,
+            "webUrl": "",
+            "youtubeUrl": "https://www.youtube.com/channel/UCjtU36wkbVs7JGJlCzcSLPw",
+            "twitterUrl": "",
+            "soundcloudUrl": "https://soundcloud.com/d-waterlemone",
+            "facebookUrl": "",
+            "instagramUrl": "https://www.instagram.com/d_watermelone/"
+        },
+        {
+            "id": 1,
+            "pk": 1,
+            "hasWebsite": true,
+            "hasYoutube": true,
+            "hasTwitter": true,
+            "hasSoundcloud": true,
+            "hasFacebook": true,
+            "hasInstagram": true,
+            "webUrl": "http://www.mainsqueezemusic.com/",
+            "youtubeUrl": "https://www.youtube.com/channel/UC0Wu8k-3Yc6tro6KYmLZRvQ",
+            "twitterUrl": "https://twitter.com/mainsqueezeme",
+            "soundcloudUrl": "https://soundcloud.com/mainsqueezemusic",
+            "facebookUrl": "https://www.facebook.com/mainsqueezemusic/",
+            "instagramUrl": "https://www.instagram.com/instasqueeze/"
+        }
+    ],
+    "songs": [
+        {
+            "id": 0,
+            "pk": 1,
+            "title": "Redbone"
+        }
+    ]
+}
