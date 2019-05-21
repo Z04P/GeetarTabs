@@ -1,7 +1,7 @@
 <template>
   <main class="pure-g center-content-sm center-content fullwidth-sm">
-    <img class="pure-img cover-img" src="../assets/img/contact.jpg" alt="Audience Hand Wave" />
-    <div class="pure-u-1 pure-u-sm-1-1 fill-height fullwidth-sm">
+    <img class="pure-img cover-img fade-in" src="../assets/img/contact.jpg" alt="Audience Hand Wave" />
+    <div class="pure-u-1 pure-u-sm-1-1 fill-height fullwidth-sm fade-in">
       <section>
         <header>
           <h1>Leave a message</h1>

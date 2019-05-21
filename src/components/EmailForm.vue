@@ -70,6 +70,17 @@ export default {
     display: inline-block;
     background-color: rgb(85, 29, 141);
   }
+  .pure-button:hover {
+    background-color: rgb(37, 19, 78);
+    transition: 0.2s;
+  }
+  .pure-button:active {
+    background-color: rgb(26, 15, 61);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
   @media only screen and (min-width: 0) and (max-width: 567px) {
     .message input, .message textarea {
       width: 100%;

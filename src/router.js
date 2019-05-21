@@ -12,17 +12,17 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/bands',
-      name: 'bands',
+      path: '/artists',
+      name: 'artists',
       component: Home,
     },
     {
-      path: '/bands/:bandId',
+      path: '/artists/:artistId',
       name: 'songs',
-      component: () => import('./views/BandSongs.vue')
+      component: () => import('./views/ArtistSongs.vue')
     },
     {
-      path: '/bands/:bandId/:songId',
+      path: '/artists/:artistId/:songId',
       name: 'tab',
       component: () => import('./views/SongTab.vue')
     },

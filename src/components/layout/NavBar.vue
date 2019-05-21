@@ -3,7 +3,7 @@
         <p class="site-logo">GEETAR TABS</p>
         <ul class="pure-menu-list">
             <li class="pure-menu-item">
-                <router-link class="pure-menu-link" to="/">BANDS</router-link>
+                <router-link class="pure-menu-link" to="/">ARTISTS</router-link>
             </li>
             <li class="pure-menu-item">
                 <router-link class="pure-menu-link" to="/about">ABOUT</router-link>
@@ -42,18 +42,23 @@ export default {
     }
     a {
         padding: 50px 20px 20px 20px;
+        background: linear-gradient(to top, rgb(245, 245, 245) 50%, rgb(130, 130, 130) 50%);
+        background-size: 100% 200%;
+        background-position: bottom;
+        transition: all 0.2s ease-out;
         color: rgb(30, 30, 30);
     }
     a:visited {
         background-color: rgb(245, 245, 245);
     }
     a:hover {
-        background-color: rgb(130, 130, 130);
+        /* background-color: rgb(130, 130, 130); */
+        background-position: top;
         color: rgb(245, 245, 245);
     }
     a:active {
         background-color: rgb(100, 100, 100);
-        color: rgb(245, 245, 245);
+        color: rgb(205, 205, 205);
     }
     @media only screen and (min-width: 0px) and (max-width: 424px) {
         .pure-menu-scrollable {

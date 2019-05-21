@@ -19,10 +19,6 @@ export default {
 </script>
 
 <style>
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 body {
   background-color: rgb(245, 245, 245);
 }

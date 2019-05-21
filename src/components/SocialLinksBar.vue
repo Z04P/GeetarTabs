@@ -69,12 +69,42 @@ export default {
         margin: 5px 5px 15px 5px;
         padding: 15px;
         border-radius: 10px;
-        background-color: rgb(235, 235, 235);
+        background-color: rgb(253, 253, 253);
     }
     .pure-menu-link:hover {
-        background-color: rgb(215, 215, 215);
+        animation: btnHover 0.4s ease-out forwards alternate;
     }
     .pure-menu-link:active {
-        background-color: rgb(195, 195, 195);
+        animation: btnActive 0.3s ease-in forwards;
+    }
+
+    @keyframes btnHover {
+        from { 
+            background-color: rgb(240, 240, 240);
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+        to { 
+            background-color: rgb(220, 220, 220);
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+
+    @keyframes btnActive {
+        from {
+            background-color: rgb(220, 220, 220);
+            -webkit-transform: scale(0.90);
+            -ms-transform: scale(0.90);
+            transform: scale(0.90);
+        }
+        to {
+            background-color: rgb(200, 200, 200);
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
     }
 </style>

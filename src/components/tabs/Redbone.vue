@@ -1,7 +1,18 @@
 <template>
-    <pre>
--------------------- Redbone - The Main Squeeze ------------------
-Tuning: EADGBe (Standard Tuning)
+    <pre class="tabs">
+<b>Tuning: EADGBe (Standard Tuning)
+
+/  slide up
+\  slide down
+h  hammer-on
+p  pull-off
+b  bend
+d  down
+~  vibrato
++  harmonic
+x  mute note
+
+TAB:</b>
 
      PM PM                PM  PM PM
 e|---------------------------------------------------------------|
@@ -94,16 +105,6 @@ G|---------------------------------------------------------------|
 D|---------------------------------------------------------------|
 A|---------------------------------------------------------------|
 E|---------------------------------------------------------------|
-
-| /  slide up
-| \  slide down
-| h  hammer-on
-| p  pull-off
-| b  bend
-| d  down
-| ~  vibrato
-| +  harmonic
-| x  mute note
     </pre>
 </template>
 <script>

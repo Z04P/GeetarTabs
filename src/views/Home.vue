@@ -1,27 +1,27 @@
 <template>
   <div>
-    <band-list v-if="bands" v-bind:bands="bands" />
+    <artist-list v-bind:artists="artists" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BandList from '@/components/BandList';
+import ArtistList from '@/components/ArtistList';
 import axios from 'axios';
 
 export default {
   name: 'home',
   components: {
-    BandList
+    ArtistList
   },
   data () {
     return {
-      bands: []
+      artists: []
     }
   },
   created () {
-    axios.get('https://my-json-server.typicode.com/Z04P/fakendgtr/bands')
-      .then(response => this.bands = response.data)
+    axios.get('https://my-json-server.typicode.com/Z04P/fakendgtr/artists')
+      .then(response => this.artists = response.data)
       .catch(error => console.log(error));
   }
 }

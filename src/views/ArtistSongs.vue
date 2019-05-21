@@ -1,10 +1,10 @@
 <template>
-    <main class="pure-g center-content  fullwidth-sm">
-        <img class="pure-img cover-img" src="../assets/img/guitar.jpg" alt="guitar" />
-        <article class="pure-u-1 pure-u-sm-1-1 fill-height  fullwidth-sm">
+    <main class="pure-g center-content fullwidth-sm">
+        <img class="pure-img cover-img fade-in" src="../assets/img/guitar.jpg" alt="guitar" />
+        <article class="pure-u-1 pure-u-sm-1-1 fill-height fullwidth-sm fade-in" v-if="songs.length > 0">
             <header>
-                <span class="header-band-songs">{{band.name}}</span>
-                <img class="pure-img band-img band-img-h" :src="band.bandImgUrl" alt="artist" />
+                <span class="header-artist-songs">{{artist.name}}</span>
+                <img class="pure-img artist-img artist-img-h" :src="artist.artistImgUrl" alt="artist" />
             </header>
             <div class="table-header">
                 <span class="pure-u-1 pure-u-sm-1-2">SONG</span>
@@ -21,13 +21,13 @@ import TabsListItem from '@/components/TabsListItem'
 import axios from 'axios'
 
 export default {
-    name: 'BandSongs',
+    name: 'ArtistSongs',
     components: {
         TabsListItem
     },
     data () {
         return {
-            band: [],
+            artist: [],
             songs: []
         }
     },
@@ -37,10 +37,10 @@ export default {
         }
     },
     created () {
-        let id = this.$route.params.bandId;
+        let id = this.$route.params.artistId;
         
-        this.getData('bands', `/${id}`)
-            .then(response => this.band = response.data)
+        this.getData('artists', `/${id}`)
+            .then(response => this.artist = response.data)
             .catch(error => console.log(error));
 
         this.getData('songs', `?pk=${id}`)
@@ -50,7 +50,7 @@ export default {
 }
 </script>
 <style scoped>
-    .header-band-songs {
+    .header-artist-songs {
         margin: 10px;
         font-size: 2em;
         vertical-align: middle;
