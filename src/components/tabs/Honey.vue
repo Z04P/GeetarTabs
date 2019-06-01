@@ -143,6 +143,7 @@ Variation 1
 CHORUS 3
 Variation 1, Variation 2 x4
 
+Tab Written By: D. WATERMELONE
     </pre>
 </template>
 <script>

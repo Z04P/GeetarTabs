@@ -119,6 +119,26 @@ section {
     visibility: hidden;
 }
 
+#print-button {
+    background-color: rgb(40, 40, 40);
+    color: rgb(253, 253, 253);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+
+#print-button:hover {
+    background-color: rgb(80, 80, 80);
+    transition: 0.2s;
+}
+
+#print-button:active {
+    background-color: rgb(120, 120, 120);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
 .fade-in {
     animation: fadeIn 1s;
 }

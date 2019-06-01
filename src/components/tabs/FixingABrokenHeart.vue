@@ -194,6 +194,8 @@ Variation 1, Variation 2
 
 BREAK 3
 Variation 3
+
+Tab Written By: D. WATERMELONE
     </pre>
 </template>
 <script>
