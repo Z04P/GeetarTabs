@@ -1,7 +1,7 @@
 # GeetarTabs
 Guitar Tabs site made with VueJS
 
-A new version is available at [https://geetartabs.herokuapp.com/](https://geetartabs.onrender.com) <br>
+A new version is available at [https://geetartabs.onrender.com/](https://geetartabs.onrender.com) <br>
 This repo is no longer maintained.
 
 This was made for <b>personal use only.</b>
